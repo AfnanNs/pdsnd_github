@@ -195,6 +195,7 @@ def display_data(df):
     while (view_data == 'yes'):
         print(df.iloc[start_loc:start_loc + 5])
         start_loc += 5
+        print('-'*40)
         view_data = input("Do you wish to continue?: ").lower()
 
 
